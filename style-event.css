@@ -1,0 +1,680 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.container1{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(dec.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(sohaib-al-kharsa-nSIj23Gzitc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.container2{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(1200px-Katamon.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.container3{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Bridge_Crossing.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.container4{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(0dbc4f5b-a4bd-4a6f-9a60-dc370eb3ad81.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.container5{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(oslo.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8% ;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+#one {
+    text-align: center;
+    padding-bottom: 30px;
+}
+@keyframes colorChange {
+    0% { color: black; }
+    25% { color: #E4312b; }
+    50% { color: #149954; }
+    75% { color: #E4312b; }
+    100% { color: #149954; }
+}
+#one{
+    margin: auto;
+    font-size: 35px;
+    font-family: 'Times New Roman';
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: color 0.5s;
+}
+
+#one:hover {
+    animation: colorChange 5s infinite; /* Change the duration as needed */
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+nav {
+    background-color: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75));
+    padding: 15px; 
+    text-align: center;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    padding: 15px 20px; 
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333; 
+    z-index: -1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    
+}
+
+
+v{
+    flex:1;
+    text-align: right;
+
+}
+
+
+h1{
+    color:#fff;
+    font-size: 100px;
+}
+#no{
+    color:#fff;
+    font-size: 80px;
+}
+p{
+    color:#fff;
+    font-size: 20px;
+    line-height: 15px;
+}
+button{
+    width: 120px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border:0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width:300px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(jorge-fernandez-salas-rkgtpiwXxtg-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(6630.jpg);
+}
+.card2{
+    background-image: url(1987.html);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+}
+/*
+#mainNav ul {
+    list-style:none;
+    display: flex;
+    justify-content: center;
+}
+
+#mainNav ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+#mainNav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+#mainNav {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+#mainNav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+#mainNav a::before {
+    content: '';
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #555;
+    z-index: -1;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+#mainNav a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#mainNav a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#mainNav a:active {
+    background-color: #ff0000;
+}
+
+#mainNav a:visited {
+    background-color:#019588;
+}
+
+@media (max-width: 768px) {
+    #mainNav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}*/
+#pp{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#mainNav a:hover {
+    background-color: #cbc2c2; 
+    color: #fff;
+}
+
+#mainNav a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#mainNav a:active {
+    background-color: #00ff00; 
+}
+
+#mainNav a:visited {
+    color: #019588; 
+}
+
+
+@media (max-width: 768px) {
+    #mainNav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
+.presentation-section {
+    width: 80%; /* Adjust width as needed */
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4; /* Adjust background color as needed */
+}
+
+/* Styles for the section title */
+.presentation-section h2 {
+    font-size: 24px;
+    color: #009688; /* Adjust text color as needed */
+    margin-bottom: 20px;
+}
+
+/* Styles for the article within the presentation section */
+.presentation-section article {
+    margin-top: 20px;
+    text-align:center;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+/* Styles for subheadings within the article */
+.presentation-section h3 {
+    font-size: 20px;
+    color: #333; /* Adjust text color as needed */
+    margin-top: 15px;
+}
+p{
+    font-size: 20px;
+    color: #333; /* Adjust text color as needed */
+    line-height: 1.5;
+    margin-bottom: 15px;  
+}
+/* Styles for paragraphs within the article */
+.presentation-section p {
+    font-size: 16px;
+    color: #333; /* Adjust text color as needed */
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Add styles for links within the article */
+.presentation-section a {
+    color: #007BFF; /* Adjust link color as needed */
+    text-decoration: underline;
+}
+
+/* Adjustments for better readability on smaller screens */
+@media only screen and (max-width: 600px) {
+    .presentation-section article {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .presentation-section h3 {
+        font-size: 18px;
+    }
+}
+#ppp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Apply styles directly to paragraphs */
+p {
+    text-align: justify; /* Justify text for better alignment */
+    margin-bottom: 15px; /* Add bottom margin to paragraphs */
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.image-container.imgs {
+    width: 200px;
+    height: 150px;
+}
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.zoom-link {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+.zoom-link img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-link:hover img {
+    transform: scale(1.1);
+}
+
+.image-container p {
+    flex: 1;
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
+}
+/* Styles for the container of videos */
+.video-container {
+    margin-top: 15px;
+}
+
+/* Styles for individual videos */
+.video-container iframe {
+    width: 80%;
+    height: 515px; /* Adjust height as needed */
+    border: none; /* Remove border around iframe */
+}
+
+#activites {
+    background-color: #f4f4f4; /* Adjust background color as needed */
+    padding: 20px;
+    width: 80%; /* Adjust width as needed */
+    margin: auto;
+}
+
+#activites article {
+    margin-top: 20px;
+}
+
+#activites h3 {
+    font-size: 20px;
+    color: #009688; /* Adjust text color as needed */
+    margin-bottom: 15px;
+}
+
+#activites p {
+    font-size: 16px;
+    color: #666; /* Adjust text color as needed */
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+/* Add styles for the "Avis des Internautes" section */
+#avis {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+#impact1 {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles for table headers */
+th {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styles for table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#impact {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Styles for table headers */
+#impact-th {
+    background-color: #009688;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styles for table cells */
+#impact-td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Styles for positive reviews */
+.positive {
+    color: #4CAF50;
+}
+
+/* Styles for negative reviews */
+.negative {
+    color: #F44336;
+}
+aside {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Styles for the map heading */
+aside h2 {
+    color: #009688;
+    margin-bottom: 15px;
+}
+
+/* Styles for the map iframe */
+aside iframe {
+    border: none;
+}
+/* Styles for the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Styles for each section within the footer */
+footer div {
+    margin-bottom: 20px;
+}
+
+/* Styles for the links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Styles for the heading in each section */
+footer h3 {
+    margin-bottom: 10px;
+}
+
+/* Styles for the contact information */
+footer p {
+    margin: 5px 0;
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* Styles for Activity Section */
+.activity-section {
+    width: 80%; /* Adjust width as needed */
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    
+}
+
+.activity-section h2 {
+    font-size: 20px;
+    color: #000000; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.activity-section article {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #110606; /* Medium text color */
+}
+.activity-section p{
+    font-size: 19px;
+    color: #666; /* Adjust text color as needed */
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.activity-section a {
+    color: #009688; /* Link color */
+    text-decoration: underline;
+}
+
+.activity-section a:hover {
+    color: #00796b; /* Hover color for links */
+}
+
+footer {
+    background-color:#009688;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
